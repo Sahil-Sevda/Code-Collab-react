@@ -1,0 +1,16 @@
+/* Header.css */
+.header {
+    background-color: #2b2d42;          /* Softer green for a clean look */
+    padding: 15px 20px;                /* Add some padding for spacing */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: sticky;                  /* Keep header fixed on scroll */
+    top: 0;
+    z-index: 1000;                     /* Ensure it stays on top */
+}
+
+.headerContent {
+    color: #ffffff;                    /* White text for contrast */
+    font-size: 1.5rem;                 /* Slightly larger font size */
+    font-weight: bold;                 /* Emphasize header text */
+    text-align: center;                /* Center align the text */
+}

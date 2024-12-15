@@ -1,0 +1,46 @@
+/* MainContent.css */
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px); /* Subtract the exact height of the footer */
+    background-color: #2b2d42;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 0 20px;
+}
+
+.mainContainer h1 {
+    font-size: 3rem;                  /* Large, prominent title */
+    margin-bottom: 15px;              /* Space below the heading */
+}
+
+.mainContainer p {
+    font-size: 1.2rem;                /* Slightly larger paragraph text */
+    margin-bottom: 20px;              /* Space below each paragraph */
+    color: #d1d1d1;                   /* Lighter gray for secondary text */
+}
+
+.ctaButton {
+    padding: 15px 30px;               /* Button size */
+    font-size: 1rem;                  /* Button text size */
+    font-weight: bold;                /* Make the button text stand out */
+    color: #ffffff;                   /* White text */
+    background-color: #e63946;        /* Bright red background for CTA */
+    border: none;                     /* Remove default border */
+    border-radius: 5px;               /* Rounded corners */
+    cursor: pointer;                  /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.ctaButton:hover {
+    background-color: #d62839;        /* Slightly darker red on hover */
+}
+
+.subText {
+    margin-top: 10px;                 /* Space above the subtext */
+    font-size: 0.9rem;                /* Smaller text size */
+    color: #a8a8a8;                   /* Faded gray text for subtle emphasis */
+}

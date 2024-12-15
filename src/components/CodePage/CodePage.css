@@ -1,0 +1,91 @@
+
+.codePageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #2b2d42; /* Dark background for contrast */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.codePageHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* max-width: 1400px; */
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #393e46; /* Slightly darker header */
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.codecollablogo {
+    height: 50px;              /* Adjust the size of the logo */
+    width: auto;               /* Maintain the aspect ratio */
+    margin-left: 10px;         /* Add some spacing from the left */
+    cursor: pointer;           /* Indicate the logo is clickable */
+    border-radius: 5px;        /* Match the header's border radius */
+    transition: transform 0.2s ease-in-out; /* Add a hover effect */
+}
+
+.codecollablogo:hover {
+    transform: scale(1.1);     /* Slightly enlarge on hover for effect */
+}
+
+.backButton {
+    background-color: #f05454;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.backButton:hover {
+    background-color: #d92e2e;
+}
+
+.editorContainer {
+    width: 100%;
+    /* max-width: 900px; */
+    flex-grow: 1;
+}
+
+.codeEditor {
+    width: 100%;
+    height: 550px;
+    padding: 15px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    resize: none; /* Prevent resizing for cleaner layout */
+    outline: none;
+    box-shadow: inset 0 0 5px #393e46;
+}
+
+.actionButtons {
+    margin-top: 10px;
+    display: flex;
+    /* bottom: 0px; */
+    gap: 15px;
+}
+
+.saveButton, .shareButton {
+    background-color: #035155;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.saveButton:hover, .shareButton:hover {
+    background-color: #007e83;
+}
